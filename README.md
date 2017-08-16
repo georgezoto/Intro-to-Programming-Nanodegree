@@ -14,7 +14,9 @@ Concepts learned:
     iOS Development  
     Android Development  
 
-References:
-https://www.udacity.com
-https://www.udacity.com/nanodegree
-https://www.udacity.com/course/intro-to-programming-nanodegree--nd000
+References:  
+https://www.udacity.com  
+https://www.udacity.com/nanodegree  
+https://www.udacity.com/course/intro-to-programming-nanodegree--nd000  
+
+![alt text](images/Intro-to-Programming-Nanodegree.png)
