@@ -7,12 +7,12 @@ Concepts learned:
 3) Code Your Own Quiz
 4) Create a Movie Website
 5) Discover Your Path
-6) Specialization - Choose Your Path
-    Front-End Development
-    Back-End Development
-    Data Analysis
-    iOS Development
-    Android Development
+6) Specialization - Choose Your Path  
+    Front-End Development  
+    Back-End Development  
+    Data Analysis  
+    iOS Development  
+    Android Development  
 
 References:
 https://www.udacity.com
