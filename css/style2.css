@@ -16,3 +16,8 @@
 .description {
   max-width:705px;
 }
+
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
