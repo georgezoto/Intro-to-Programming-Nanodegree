@@ -9,15 +9,24 @@
     box-sizing: border-box;
 }
 
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.title {
+  background-color: #33BEBE;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
 .screenshot {
   max-width:460px;
+  margin: 20px;
 }
 
 .description {
   max-width:705px;
-}
-
-.app {
-  display: -webkit-flex;
-  display: flex;
+  color: #7C8B88;
+  margin: 20px;
 }
