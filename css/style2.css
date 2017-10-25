@@ -17,12 +17,14 @@
 .title {
   background-color: #33BEBE;
   color: #FFFFFF;
-  font-weight: 300;
+  font-family: Helvetica;
+  font-size: 48px;
 }
 
 .screenshot {
   max-width:460px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .description {
