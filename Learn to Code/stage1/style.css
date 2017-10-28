@@ -16,11 +16,15 @@ if you need a refresher about how to do this. */
   display: flex;
 }
 
-.title {
+h1 {
   background-color: #33BEBE;
   color: #FFFFFF;
   font-family: Helvetica;
   font-size: 48px;
+}
+
+ul {
+  margin-bottom: 20px;
 }
 
 .screenshot {
