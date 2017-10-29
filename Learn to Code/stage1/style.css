@@ -19,7 +19,7 @@ if you need a refresher about how to do this. */
 h1 {
   background-color: #33BEBE;
   color: #FFFFFF;
-  font-family: Helvetica;
+  font-family: Helvetica, "Courier New", monospace;
   font-size: 48px;
 }
 
