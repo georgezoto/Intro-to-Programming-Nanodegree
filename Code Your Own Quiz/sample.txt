@@ -2,3 +2,4 @@ Getting set up with Python
 Introduction to Programming
 Work Session: Basic Debugging
 Variables & Strings
+String Manipulation
