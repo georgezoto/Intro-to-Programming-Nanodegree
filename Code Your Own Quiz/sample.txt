@@ -3,3 +3,4 @@ Introduction to Programming
 Work Session: Basic Debugging
 Variables & Strings
 String Manipulation
+Input, Function, Output
