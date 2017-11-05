@@ -4,3 +4,6 @@ Work Session: Basic Debugging
 Variables & Strings
 String Manipulation
 Input, Function, Output
+Control Flow: If Statements & While Loops
+Deep Debugging
+Structured Data: Lists & For Loops
