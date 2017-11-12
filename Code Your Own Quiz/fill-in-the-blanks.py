@@ -58,13 +58,14 @@ as well as Allergan, the manufacturer of Botox. According to The Express Tribune
 avoided billions of dollars in tax using offshore companies." Source: https://en.wikipedia.org/wiki/Paradise_Papers'''
 
 #The answers to the original_paragraphs above, one for each level of difficulty.
-answers = [[],[],[]]
+
 #easy level
-answers[0] = ['World', 'Python', 'print', 'raw_input']
+easy_answers = ['World', 'Python', 'print', 'raw_input']
 #medium level
-answers[1] = ['function', 'arguments', 'None', 'list']
+medium_answers = ['function', 'arguments', 'None', 'list']
 #hard level
-answers[2] = ['Facebook', 'Apple', 'Disney', 'Uber']
+hard_answers = ['Facebook', 'Apple', 'Disney', 'Uber']
+answers = [easy_answers, medium_answers, hard_answers]
 
 #Conceptually different steps, broken down into seperate functions
 #Description: Prompt user for difficulty level.
