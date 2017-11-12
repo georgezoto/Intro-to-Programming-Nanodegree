@@ -58,7 +58,6 @@ as well as Allergan, the manufacturer of Botox. According to The Express Tribune
 avoided billions of dollars in tax using offshore companies." Source: https://en.wikipedia.org/wiki/Paradise_Papers'''
 
 #The answers to the original_paragraphs above, one for each level of difficulty.
-
 #easy level
 easy_answers = ['World', 'Python', 'print', 'raw_input']
 #medium level
@@ -68,10 +67,21 @@ hard_answers = ['Facebook', 'Apple', 'Disney', 'Uber']
 answers = [easy_answers, medium_answers, hard_answers]
 
 #Conceptually different steps, broken down into seperate functions
-#Description: Prompt user for difficulty level.
-#Input: None
-#Output: Interact with user until a valid difficulty level is selected and returned.
+#Use Google format for Python doctstrings
+#https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format
 def prompt_user_difficulty_level():
+    '''
+    Prompt user for difficulty level.
+
+    Args:
+        None
+
+    Returns:
+        Interact with user until a valid difficulty level is selected and returned.
+
+    Raises:
+        None
+    '''
     print 'Please select a game difficulty by typing it in!'
     user_level = ''
     while user_level not in ['easy', 'medium', 'hard']:
@@ -81,10 +91,19 @@ def prompt_user_difficulty_level():
     print 'You have chosen ' + user_level + '!'
     return user_level
 
-#Description: Prompt user for number of trials with a maximum boundary.
-#Input: None
-#Output: Interact with user until a valid number of trials is selected and returned.
 def prompt_user_number_of_trials():
+    '''
+    Prompt user for number of trials with a maximum boundary.
+
+    Args:
+        None
+
+    Returns:
+        Interact with user until a valid number of trials is selected and returned.
+
+    Raises:
+        None
+    '''
     guesses = ''
     while guesses not in [1,2,3,4,5]:
         print 'How many chances would you like to try, up to 5 per problem:'
@@ -93,10 +112,21 @@ def prompt_user_number_of_trials():
     print "Great! Let's start with " + str(guesses) + " guesses per problem."
     return guesses
 
-#Description: Ask the user to fill in the blanks in a paragraph.
-#Input: difficulty_level, guesses
-#Output: A new paragraph based on the user's input.
 def ask_user_paragraph(difficulty_level, guesses):
+    '''
+    Ask the user to fill in the blanks in a paragraph.
+
+    Args:
+        param1: difficulty_level
+        param2: guesses
+
+    Returns:
+        A new paragraph based on the user's input.
+
+    Raises:
+        None
+    '''
+
     if difficulty_level == 'easy':
         level = 0
     elif difficulty_level == 'medium':
@@ -109,10 +139,22 @@ def ask_user_paragraph(difficulty_level, guesses):
     print paragraph
     return [paragraph, 1]
 
-#Description: Verify an answer entered by a user and if correct, update the paragraph.
-#Input: difficulty_level, blank_id, answer
-#Output: Verify an answer and return updated paragraph.
 def verify_answer_update_paragraph(difficulty_level, paragraph, blank_id, guesses):
+    '''
+    Verify an answer entered by a user and if correct, update the paragraph.
+
+    Args:
+        param1: difficulty_level
+        param2: blank_id
+        param3: answer
+
+    Returns:
+        Verify an answer and return updated paragraph.
+
+    Raises:
+        None
+    '''
+
     while guesses > 0 and blank_id > 0 and blank_id < 5:
         print 'What should be substituted in for __' + str(blank_id) + '__?'
         answer = raw_input()
