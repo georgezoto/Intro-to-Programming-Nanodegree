@@ -19,4 +19,11 @@ movies = [fast_and_furious, friends]
 
 #fresh_tomatoes.open_movies_page(movies)
 print(media.Movie.VALID_RATINGS)
-print(media.Movie.__doc__)
+print('doc', media.Movie.__doc__)
+print('name', media.Movie.__name__)
+print('module', media.Movie.__module__)
+#print(media.Movie.__defaults__)
+#print(media.Movie.__code__)
+#print(media.Movie.__globals__)
+print('dict', media.Movie.__dict__)
+#print(media.Movie.__closure__)
